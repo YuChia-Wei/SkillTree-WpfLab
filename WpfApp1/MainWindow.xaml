@@ -58,9 +58,9 @@
                 <TextBox
                     Text="{Binding Result ,
                     Mode=TwoWay,
-                    UpdateSourceTrigger=PropertyChanged  }"
-                    Foreground="{Binding Result,
-                    Converter={StaticResource colorConverter}}" />
+                    UpdateSourceTrigger=PropertyChanged  }"/>
+                    <!--Foreground="{Binding Result,
+                    Converter={StaticResource colorConverter}}" />-->
             </StackPanel>
         </Grid>
         <Grid Grid.Row="3">
